@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+{% extends 'partials/base.html' %}
+{% block title %}Review de Filmes{% endblock title %}
+{% block body %} 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review de Filmes</title>
-    <link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}">
+    <div id="title">
+        <h1>Review de Filmes</h1>
+    </div>
 </head>
-<body>
-    <h1>Home</h1>
-</body>
-</html>
+{% endblock body %}
